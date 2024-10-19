@@ -65,7 +65,7 @@ avg_price = mean(data);
 highest_price = max(data);
 % Finds highest data value
 lowest_price = min(data);
-%finnds lowest data value
+% Finds lowest data value
 increase = sum(diff(data)>0);
 % If the difference between a data point and the one coming before it is positive, then diff(data)>0 will be true. sum adds up the number true statements
 
